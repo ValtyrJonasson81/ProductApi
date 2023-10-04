@@ -13,6 +13,10 @@ Replace `{product-api-url}` with the URL of the product REST API you want to ret
 
 The function will return the product's price as an `int`.
 
+## Example
+
+http://localhost:7151/api/getProductPrice?url=https://backend.kronan.is/api/products/100253420
+
 ## Deployment
 
 Deploy this Azure Function to your Azure account using your preferred deployment method.
