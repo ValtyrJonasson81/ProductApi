@@ -11,8 +11,6 @@ http://{your-function-url]/api/getProductPrice?url={product-api-url}
 Replace `{product-api-url}` with the URL of the product REST API you want to retrieve the price from.
 Replace `{your-function-url}` with the URL of the service.
 
-Example
-http://localhost:7151/api/getProductPrice?url=https://backend.kronan.is/api/products/100253420
 
 The function will return the product's price as an `int`.
 
