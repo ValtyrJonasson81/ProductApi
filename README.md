@@ -17,6 +17,15 @@ The function will return the product's price as an `int`.
 
 http://localhost:7151/api/getProductPrice?url=https://backend.kronan.is/api/products/100253420
 
+## OpenAPI 
+
+RenderOpenApiDocument: [GET] http://localhost:7151/api/openapi/{version}.{extension}
+
+## Swagger
+
+RenderSwaggerDocument: [GET] http://localhost:7151/api/swagger.{extension}
+RenderSwaggerUI: [GET] http://localhost:7151/api/swagger/ui
+
 ## Deployment
 
 Deploy this Azure Function to your Azure account using your preferred deployment method.
